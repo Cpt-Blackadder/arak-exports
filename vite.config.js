@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [react()],
   base: '/arak-exports/',
   build: {
-    outDir: 'dist',
+    outDir: '.', // Output to root instead of dist
     assetsDir: 'assets',
   },
   optimizeDeps: {
